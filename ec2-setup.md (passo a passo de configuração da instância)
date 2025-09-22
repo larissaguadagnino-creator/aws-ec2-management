@@ -1,0 +1,12 @@
+# Configuração de Instância EC2
+
+## 1. Criação da instância
+- Passo 1: Acesse o console da AWS e vá até EC2.
+- Passo 2: Clique em "Launch Instance".
+- Passo 3: Escolha a AMI (ex: Amazon Linux 2).
+- Passo 4: Configure o tipo da instância (ex: t2.micro).
+- Passo 5: Configure rede e segurança.
+
+## 2. Conexão via SSH
+```bash
+ssh -i "minha-chave.pem" ec2-user@ip-da-instancia
