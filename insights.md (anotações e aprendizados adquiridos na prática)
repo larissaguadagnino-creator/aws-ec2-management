@@ -1,0 +1,20 @@
+aws ec2 stop-instances --instance-ids <ID_DA_INSTANCIA>
+
+---
+
+## 📄 `insights.md` (anotações e aprendizados)
+```markdown
+# Insights e Aprendizados
+
+## O que aprendi
+- Diferença entre parar e terminar uma instância.
+- Importância das chaves SSH.
+- Como configurar grupos de segurança.
+
+## Dificuldades encontradas
+- Problemas de permissão ao conectar via SSH.
+- Configuração de regras de inbound/outbound no Security Group.
+
+## Próximos passos
+- Automatizar processos com scripts.
+- Testar integração com RDS.
