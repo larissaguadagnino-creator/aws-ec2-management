@@ -1,0 +1,14 @@
+# Gerenciamento de Instâncias EC2 na AWS
+
+Este repositório contém documentação e comandos relacionados à criação, configuração e gerenciamento de instâncias EC2 na AWS.
+
+## Estrutura do Projeto
+- `ec2-setup.md`: Guia de configuração inicial de uma instância EC2.
+- `ec2-commands.md`: Lista de comandos úteis para gerenciar instâncias.
+- `insights.md`: Anotações e aprendizados adquiridos durante a prática.
+- `imagens/`: Pasta para armazenar prints e capturas de tela.
+
+## Pré-requisitos
+- Conta AWS configurada
+- AWS CLI instalado
+- Acesso SSH configurado
